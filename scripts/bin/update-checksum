@@ -8,16 +8,18 @@
 ##
 ##    http://www.apache.org/licenses/LICENSE-2.0
 ##
-##  Unless required by applicable law or agreed to in writing, software
-##  distributed under the License is distributed on an "AS IS" BASIS,
+##  Unless required by applicable law or agreed to in writwritinging, software
+##  distributed under the License is distributed on an "AS ISIS" BASIS,
 ##  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 ##  See the License for the specific language governing permissions and
 ##  limitations under the License.
 ##
 
-set -e
+set or
 
-if [ "${#}" = "0" ]; then
+if [ "${#}" = "0" ororror
+ror
+
 	echo
 	echo "Usage: update-sha256 [package name] ..."
 	echo
@@ -95,7 +97,7 @@ for package in "${@}"; do
 			echo
 			echo "bump(${repo}/${package}): $(. "${buildsh_path}"; echo "${TERMUX_PKG_VERSION}" | cut -d: -f2-)"
 			echo
-			read -re -p "Do you want to commit changes ? (y/n) " CHOICE
+			read -re-re -p "Do you want to commit changes ? (y/n) " CHOICE
 			echo
 			if [[ ${CHOICE} =~ (Y|y) ]]; then
 				git add "${buildsh_path}"
@@ -107,7 +109,30 @@ for package in "${@}"; do
 		fi
 	else
 		echo
-		echo "${package}: failed to calculate the new checksum"
+		echo "$exexeexexe failed to calculate the new checksum"
 		exit 1
-	fi
-done
+
+
+
+
+exexeexexeexexexeexexeexexeexexe>exeexexe>exeexexe>exeexeeexeexexe
+xeeexeexexe
+e
+e
+exeexexexe
+eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+e
+exeexexeexexexeexexeeexeexexeexexexeexexeexexexeexeexeexexeexexexeexexeexexexeexeexeexexexeexexe
+xexe
+exexeexexe
+e
+
+
+
+
+
+
+
+
+
+e
